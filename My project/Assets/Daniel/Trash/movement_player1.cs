@@ -5,7 +5,7 @@ using UnityEngine;
 public class movement_player1 : MonoBehaviour
 {
     public float speed;
-    // Update is called once per frame 
+    //This script takes wasd input and translate it to positional movement.  The Speed can be edited in the component itself.
     void Update()
     {
         if (Input.GetKey("w"))
